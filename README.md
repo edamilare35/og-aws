@@ -1,3 +1,4 @@
+Hi there this a guide to AWS
 ![An Open Guide](figures/signpost-horiz1-1600.jpg)
 
 The Open Guide to Amazon Web Services
