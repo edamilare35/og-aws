@@ -1,0 +1,39 @@
+Login to Your Azure Account
+
+a) To login to your Azure account, type the command az login and press the Enter button on your desktop
+
+b) You will be redirected to a web browser to sign in to your account.
+
+c) Click on your account
+
+d) You will get the below notification, close the browser page and go back to the terminal.
+
+e)Welcome!! you are logged in. The command below shows your subscription and your account
+
+Create Your Resource Group
+
+a) The next step is to create your resource group that will accommodate your virtual machine and its dependents.
+
+b) Input the command ;
+
+az group create --name (name your resource) --location (input the location you want your resource to be).
+
+c) Ensure to leave a space after each word.
+
+d) Once you've inputted the command, Press enter.
+
+e) Your resource group has been successfully created.
+
+Create Your Virtual Machine
+
+a)The next step is to create your virtual machine.
+
+b) Input the command;
+
+az vm create --resource-group (input your resource group name) --name (name your virtual machine) --image (the name of the image you wish to use) --admin-user (the admin name) --generate-ssh-key
+
+c) Once you press enter, your virtual machine will start running as shown below.
+
+d) When you go to your Azure portal, you can see the virtual machine created using Azure CLI.
+
+I hope this helped you understand the flexibility and ease of creating resources in Azure CLI. Thank you.
